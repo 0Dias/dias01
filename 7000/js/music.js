@@ -184,10 +184,10 @@ window.onload = function () {
 	xunhuan.onclick = function () {
 		if (audio.loop) {
 			audio.loop = false;
-			this.innerHTML = '循环';
+			this.innerHTML = 'Обычный';
 		} else {
 			audio.loop = true;
-			this.innerHTML = '单曲';
+			this.innerHTML = 'Повтор';
 		}
 	};
 
